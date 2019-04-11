@@ -9,12 +9,12 @@ class Card {
   final String cardinalDirection;
 
   Card(
-      this.backdropAssetPath,
+      {this.backdropAssetPath,
       this.address,
       this.minHeightInFeet,
       this.maxHeightInFeet,
       this.tempInDegrees,
       this.weatherType,
       this.windSpeedInMph,
-      this.cardinalDirection);
+      this.cardinalDirection});
 }
