@@ -1,7 +1,7 @@
 import 'package:flip_card/models/card.dart';
 
-final List<Card> demoCards = [
-  new Card(
+final List<CardModel> demoCards = [
+  new CardModel(
     backdropAssetPath: 'assets/van_on_beach.jpg',
     address: '10TH STREET',
     minHeightInFeet: 2,
@@ -11,7 +11,7 @@ final List<Card> demoCards = [
     windSpeedInMph: 11.2,
     cardinalDirection: "ENE",
   ),
-  new Card(
+  new CardModel(
     backdropAssetPath: 'assets/dusk_waves.jpg',
     address: '10TH STREET NORTH\nTO 14TH STREET NO...',
     minHeightInFeet: 6,
@@ -21,7 +21,7 @@ final List<Card> demoCards = [
     windSpeedInMph: 20.5,
     cardinalDirection: "E",
   ),
-  new Card(
+  new CardModel(
     backdropAssetPath: 'assets/board_walk.jpg',
     address: 'BELLS BEACH',
     minHeightInFeet: 3,

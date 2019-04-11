@@ -1,4 +1,4 @@
-class Card {
+class CardModel {
   final String backdropAssetPath;
   final address;
   final int minHeightInFeet;
@@ -8,7 +8,7 @@ class Card {
   final double windSpeedInMph;
   final String cardinalDirection;
 
-  Card(
+  CardModel(
       {this.backdropAssetPath,
       this.address,
       this.minHeightInFeet,

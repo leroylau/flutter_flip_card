@@ -11,6 +11,8 @@ Setup the project and put some assets into the `assets` folder.
 
 This widget is responsible to present the card in a `flip` way.
 
+* Create a `CardView` Widget using the text and image
+
 
 
 ## BottomBar Widget
